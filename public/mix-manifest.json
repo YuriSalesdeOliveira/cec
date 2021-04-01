@@ -1,3 +1,5 @@
 {
-    "/site/js/jquery.js": "/site/js/jquery.js"
+    "/site/css/style.css": "/site/css/style.css",
+    "/site/js/jquery.js": "/site/js/jquery.js",
+    "/site/js/bootstrap.js": "/site/js/bootstrap.js"
 }
