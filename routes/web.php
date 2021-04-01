@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Site\SiteController;
 use App\Http\Middleware\CheckLogin;
 use Illuminate\Support\Facades\Route;
 
@@ -16,6 +17,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::group(['middleware' => CheckLogin::class], function(){
     
-    
+    Route::get('/', [SiteController::class, 'home'])->name('site.home');
 
 });
