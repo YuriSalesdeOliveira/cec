@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 
 class CompanyController extends Controller
 {
-    public function compaies()
+    public function companies()
     {
         return view('site.companies');
     }
