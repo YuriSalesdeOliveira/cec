@@ -27,7 +27,7 @@
                 </svg>
             </a>
             {{-- <a class="py-2 d-none d-md-inline-block" href="#">Inicio</a> --}}
-            <a class="py-2 d-none d-md-inline-block" href="#">Empresas</a>
+            <a class="py-2 d-none d-md-inline-block" href="{{ route('site.companies') }}">Empresas</a>
             <a class="py-2 d-none d-md-inline-block" href="#">Sistemas</a>
             <a class="py-2 d-none d-md-inline-block" href="#">Opções de pagamento</a>
             <a class="py-2 d-none d-md-inline-block" href="#">Vendas</a>
